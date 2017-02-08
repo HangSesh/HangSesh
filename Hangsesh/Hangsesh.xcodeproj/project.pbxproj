@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452B36CB1E4B0081009CDD6F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452B36C91E4B0081009CDD6F /* HeaderView.swift */; };
+		452B36CC1E4B0081009CDD6F /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452B36CA1E4B0081009CDD6F /* HeaderView.xib */; };
 		45F6A7B11E4AADE600B043A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6A7B01E4AADE600B043A8 /* AppDelegate.swift */; };
 		45F6A7B31E4AADE600B043A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6A7B21E4AADE600B043A8 /* ViewController.swift */; };
 		45F6A7B61E4AADE600B043A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F6A7B41E4AADE600B043A8 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		452B36C91E4B0081009CDD6F /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		452B36CA1E4B0081009CDD6F /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		45F6A7AD1E4AADE600B043A8 /* Hangsesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangsesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F6A7B01E4AADE600B043A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F6A7B21E4AADE600B043A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				45F6A7B01E4AADE600B043A8 /* AppDelegate.swift */,
 				45F6A7B21E4AADE600B043A8 /* ViewController.swift */,
+				452B36C91E4B0081009CDD6F /* HeaderView.swift */,
+				452B36CA1E4B0081009CDD6F /* HeaderView.xib */,
 				45F6A7B41E4AADE600B043A8 /* Main.storyboard */,
 				45F6A7BA1E4AADE600B043A8 /* Assets.xcassets */,
 				45F6A7BC1E4AADE600B043A8 /* LaunchScreen.storyboard */,
@@ -241,6 +247,7 @@
 				45F6A7BE1E4AADE600B043A8 /* LaunchScreen.storyboard in Resources */,
 				45F6A7BB1E4AADE600B043A8 /* Assets.xcassets in Resources */,
 				45F6A7B61E4AADE600B043A8 /* Main.storyboard in Resources */,
+				452B36CC1E4B0081009CDD6F /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 				45F6A7B31E4AADE600B043A8 /* ViewController.swift in Sources */,
 				45F6A7B11E4AADE600B043A8 /* AppDelegate.swift in Sources */,
 				45F6A7B91E4AADE600B043A8 /* Hangsesh.xcdatamodeld in Sources */,
+				452B36CB1E4B0081009CDD6F /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +526,7 @@
 				45F6A7DA1E4AADE700B043A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45F6A7DB1E4AADE700B043A8 /* Build configuration list for PBXNativeTarget "HangseshTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				45F6A7DD1E4AADE700B043A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45F6A7DE1E4AADE700B043A8 /* Build configuration list for PBXNativeTarget "HangseshUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +544,7 @@
 				45F6A7E01E4AADE700B043A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
