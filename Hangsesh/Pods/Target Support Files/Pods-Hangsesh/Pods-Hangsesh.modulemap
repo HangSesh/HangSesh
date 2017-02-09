@@ -1,0 +1,6 @@
+framework module Pods_Hangsesh {
+  umbrella header "Pods-Hangsesh-umbrella.h"
+
+  export *
+  module * { export * }
+}
