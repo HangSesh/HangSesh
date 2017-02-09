@@ -1,0 +1,6 @@
+framework module Pods_HangseshTests {
+  umbrella header "Pods-HangseshTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

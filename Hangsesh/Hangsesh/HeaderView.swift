@@ -8,10 +8,14 @@
 
 import UIKit
 
+
 class HeaderView: UITableViewCell {
     
     
     @IBOutlet weak var HeaderLabel: UILabel!
+    @IBOutlet weak var peopleCount: UILabel!
+    @IBOutlet weak var distance: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

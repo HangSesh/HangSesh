@@ -24,6 +24,16 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n3f-dK-RTq" id="7pC-WJ-yN5">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="209"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zV0-Zf-wL3">
+                                            <rect key="frame" x="164" y="163" width="46" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="buttonAnimation:" destination="f7S-UP-KPw" eventType="touchUpInside" id="y9s-5B-zD9"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.023375283926725388" green="0.031773071736097336" blue="0.011046664789319038" alpha="0.47678257042253519" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
